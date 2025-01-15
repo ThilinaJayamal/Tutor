@@ -43,6 +43,7 @@ body{
 .hero .btn-group {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     gap: 20px;
 }
 
@@ -58,11 +59,10 @@ body{
 /* button style*/
 .btn {
     border-radius: 30px !important;
-    padding: 10px 30px !important;
+    padding: 10px 20px !important;
     border: none !important;
-    font-size: 12pt !important;
+    font-size: 10pt !important;
     color: #fff !important;
-    font-weight: 500 !important;
 }
 
 .btn-secondary {
@@ -208,6 +208,9 @@ footer .bi {
 }
 
 .newsletter {
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
     background-color: #fff;
     border-radius: 30px;
     overflow: hidden;
