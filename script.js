@@ -1,5 +1,3 @@
-AOS.init();
-
 const videoContainer = document.getElementById("vcontainer");
 const player = document.getElementById("player");
 const playBtn = document.getElementById("play");
