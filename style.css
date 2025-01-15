@@ -210,7 +210,7 @@ footer .bi {
 .newsletter {
     display: flex;
     justify-content: space-between;
-    max-width: 100%;
+    justify-items: center;
     background-color: #fff;
     border-radius: 30px;
     overflow: hidden;
